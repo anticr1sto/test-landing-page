@@ -1,0 +1,170 @@
+#menu-superior{
+    margin: -8px;
+    background-image: url(./imagens/fundo-superior.svg);
+    color: aliceblue;
+    font-family:"inter";
+}
+
+#logo{
+margin-left: 50px;
+margin-top: 70px;
+}
+
+#t1{
+margin-top: 50px;
+margin-left: 220px;
+}
+
+#p1{
+    margin-top: 30px;
+    margin-left: 220px;
+    padding-bottom: 80px;
+}
+
+#menu-info{
+    margin: -8px;
+    margin-top: -15px;
+    color: #122235;
+    font-family: "inter";
+    background: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding-right: 25px;
+}
+
+.texto-info{
+    margin: 50px 50px 50px 75px;
+    display: flex;
+    align-items: center;
+}
+
+#p2{
+    color: #122235;
+    font-family: "inter";
+}
+
+#t2{
+    color: #247BA0;
+    font-family: "inter";
+
+}
+
+#menuvideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#textosvideo{
+    margin: 125px 50px 0px 0px;
+
+}
+
+#video{
+    margin: 100px 50px 50px 150px;
+}
+
+#Carrossel{
+    background-color:#247BA0;
+    margin: -10px;
+    padding: 50px;
+}
+
+#TituloCarrossel{
+    text-align: center;
+    color: #EAECE5;
+    font-family: "inter";
+    font-size: 32px;
+}
+
+#div_cards{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+#setaesquerda{
+    display: none;
+}
+
+#Card3{
+    display: none;
+}
+
+.setadireita{
+    margin-top: 85px;
+    cursor: pointer;
+}
+
+.setaesquerda{
+    margin-top: 110px;
+    cursor: pointer;
+}
+
+.setadireita:hover{
+    transform: translateY(-7px);
+    transition-duration: 100ms;
+}
+
+.setaesquerda:hover{
+    transform: translateY(-7px);
+    transition-duration: 100ms;
+}
+
+#Formulario{
+    text-align: center;
+}
+
+#TituloFormulario{
+    text-align: center;
+    font-family: "inter";
+    color: #383838;
+    font-size: 32px;
+    margin: 40px;
+}
+
+.inputs{
+    margin-bottom: 30px;
+    background-color: #EAECE5;
+    width: 413px;
+    height: 53px;
+    top: 1751px;
+    left: 531px;
+    gap: 0px;
+    opacity: 0px;
+    border: 0px;
+    border-radius: 5px;
+    font-family: "inter";
+}
+
+.botao{
+    margin-bottom: 30px;
+    background-color: #247BA0;
+    width: 335px;
+    height: 53px;
+    top: 2028px;
+    left: 570px;
+    gap: 0px;
+    opacity: 0px;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor:pointer;
+    font-family: "inter";
+}
+
+.botao:hover{
+    background-color: #318fb8;
+    color: white;
+    transform: translateY(-7px);
+    transition-duration: 100ms;
+}
